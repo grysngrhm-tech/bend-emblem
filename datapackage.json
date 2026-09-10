@@ -2,9 +2,9 @@
   "profile": "data-package",
   "name": "bend-emblem",
   "title": "The Bend Emblem",
-  "description": "The vector masters of the historic Bend Emblem and the built open-source package derived from them, mirrored from BendEmblem.com. The emblem was published in the Bend Bulletin on 3 July 1912 and the club that adopted it gave the town leave to use it in 1922; this repository exists so anyone can pick it up and use it.",
+  "description": "The vector masters of the historic Bend Emblem and the built open-source package derived from them, mirrored from BendEmblem.com. TWO FAMILIES, and they are different drawings: the 1912 emblem, reconstructed from the Bend Bulletin of 3 July 1912, and the familiar later 'common' emblem whose own source artwork has not been identified. The emblem was published in 1912 and the club that adopted it gave the town leave to use it in 1922; this repository exists so anyone can pick it up and use it.",
   "homepage": "https://bendemblem.com",
-  "version": "v1.1",
+  "version": "v1.2",
   "created": "2026-09-10",
   "keywords": [
     "bend",
@@ -41,46 +41,71 @@
   ],
   "resources": [
     {
-      "name": "bend-emblem-cutout-black",
-      "path": "masters/bend-emblem-cutout-black.svg",
+      "name": "bend-emblem-1912-black",
+      "path": "masters/historical/1912/bend-emblem-1912-black.svg",
       "format": "svg",
       "mediatype": "image/svg+xml",
+      "family": "historical-1912",
+      "title": "1912 Black",
+      "bytes": 45333,
+      "hash": "sha256:d4e1c4590045d3cb2be9c3a6fb8c1f4aea8723c3a8c55330938f5522a9b5ef0e"
+    },
+    {
+      "name": "bend-emblem-1912-white",
+      "path": "masters/historical/1912/bend-emblem-1912-white.svg",
+      "format": "svg",
+      "mediatype": "image/svg+xml",
+      "family": "historical-1912",
+      "title": "1912 White",
+      "bytes": 45333,
+      "hash": "sha256:ad42fed877b8e29ad84d8da931b122495de0b04f5ab37b330b391a45604bd996"
+    },
+    {
+      "name": "bend-emblem-cutout-black",
+      "path": "masters/modern/bend-emblem-cutout-black.svg",
+      "format": "svg",
+      "mediatype": "image/svg+xml",
+      "family": "modern",
       "title": "Cutout Black",
       "bytes": 10628,
       "hash": "sha256:e893336f2cbaf48c9ef5a01d97f4408142eed7fdae3536557017c34ec3903375"
     },
     {
       "name": "bend-emblem-cutout-white",
-      "path": "masters/bend-emblem-cutout-white.svg",
+      "path": "masters/modern/bend-emblem-cutout-white.svg",
       "format": "svg",
       "mediatype": "image/svg+xml",
+      "family": "modern",
       "title": "Cutout White",
       "bytes": 10642,
       "hash": "sha256:48b8d642e91489a1c5e95d74817f100b608c8628230d79de6e810f20dee99144"
     },
     {
       "name": "bend-emblem-lettermark-black",
-      "path": "masters/bend-emblem-lettermark-black.svg",
+      "path": "masters/modern/bend-emblem-lettermark-black.svg",
       "format": "svg",
       "mediatype": "image/svg+xml",
+      "family": "modern",
       "title": "Lettermark Black",
       "bytes": 8525,
       "hash": "sha256:30d5fa2ded4400f8ed62efcf05ddf390ff2f8338e13ec098292b3280090bc4a3"
     },
     {
       "name": "bend-emblem-lettermark-white",
-      "path": "masters/bend-emblem-lettermark-white.svg",
+      "path": "masters/modern/bend-emblem-lettermark-white.svg",
       "format": "svg",
       "mediatype": "image/svg+xml",
+      "family": "modern",
       "title": "Lettermark White",
       "bytes": 8550,
       "hash": "sha256:fdc104c176560ce7c4dd98bd6a10d6316d874bf38027156a9d7659c63b6d3440"
     },
     {
       "name": "bend-emblem-original",
-      "path": "masters/bend-emblem-original.svg",
+      "path": "masters/modern/bend-emblem-original.svg",
       "format": "svg",
       "mediatype": "image/svg+xml",
+      "family": "modern",
       "title": "Original",
       "bytes": 11573,
       "hash": "sha256:5c7ffaa6f8a1b8ce6c5595a7be2f4f238ee28aa1a9a61b6532a55f65a42ee367"
@@ -92,6 +117,20 @@
       "mediatype": "application/json",
       "title": "Computed manifest of the built package",
       "description": "Every derivative file with its byte count and SHA-256, computed from the masters by scripts/build-emblem-package.mjs in the BendEmblem.com repository. Never hand-typed."
+    }
+  ],
+  "families": [
+    {
+      "id": "historical-1912",
+      "title": "The 1912 emblem",
+      "classification": "historical-reconstruction",
+      "description": "The mark as it was printed in the Bend Bulletin on 3 July 1912, the earliest publication of it this project has found. A double ring, hand-composed letters, heavier strokes. Reconstructed from that page; the record of what was and was not changed is in the archive."
+    },
+    {
+      "id": "modern",
+      "title": "The common emblem",
+      "classification": "undetermined",
+      "description": "The familiar later form, and the one most people in Bend will recognise. A different and lighter drawing than the 1912 mark. The artwork it was traced from has not been identified, so it is labelled a modern optimization rather than a historical reconstruction."
     }
   ]
 }

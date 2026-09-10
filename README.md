@@ -25,18 +25,42 @@ cheques and their stationery, and hoped aloud that the next issue would
 Bend Commercial Club leave to use the emblem "in any way it sees fit," and
 the Bend Iron Works started casting it in aluminium for cars.
 
+## Two families, and they are different drawings
+
+This repository holds **two** reconstructions of the Bend Emblem, not one
+mark in two styles.
+
+| | **1912** | **Common** |
+|---|---|---|
+| What it is | The mark as printed in the Bend Bulletin on 3 July 1912 | The familiar later form most people in Bend know |
+| Source | [That newspaper page](https://oregonnews.uoregon.edu/lccn/sn96088235/1912-07-03/ed-1/seq-28/) | Not identified |
+| Classification | Historical reconstruction | Undetermined |
+| Look for | A double ring, hand-composed letters, heavy strokes | A single disc edge, lighter and more even |
+
+Measured against the newspaper page, the 1912 mark is 72% ink inside its
+disc and the common one 50%. Neither replaces the other. If you just want
+*the Bend emblem*, take the common one; if you want the one they actually
+printed in 1912, take that.
+
+The 1912 specimen carries a small circled © between the E and the N. It is
+**not** reproduced in these files — see `masters/historical/1912/RECONSTRUCTION.md`.
+There is no PDF or EPS for the 1912 family; use its SVG.
+
 ## What is here
 
 ```text
-masters/      five SVG masters + RECONSTRUCTION.md
-package/      60 files built from those masters
+masters/
+  historical/1912/  the 1912 family + RECONSTRUCTION.md
+  modern/           the five common masters + RECONSTRUCTION.md
+package/      75 files built from those masters
+  1912-black/ 1912-white/
   original/ cutout-black/ cutout-white/ lettermark-black/ lettermark-white/
   web/        favicons (SVG, ICO, 180, 192, 512) and the web manifest
   maker/      DXF and cut-path files
   package/    manifest.json — every file with its bytes and SHA-256
 datapackage.json   Frictionless Data descriptor
 CITATION.cff       how to cite this, if you want to
-CHANGELOG.md       dated snapshots; v1.1 is the first
+CHANGELOG.md       dated snapshots; v1.2 adds the 1912 family
 ```
 
 Which file do you want?

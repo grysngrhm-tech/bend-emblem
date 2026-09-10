@@ -2,15 +2,181 @@
   "generated": "2026-09-10",
   "classification": "undetermined",
   "classificationNote": "A cleaned digital reconstruction derived from the preserved Bend Emblem artwork. The artwork it was traced from has not yet been identified and filed, so the site does not call these files the historical reconstruction. The reconstruction record in the source repository says what is known.",
+  "families": [
+    {
+      "id": "historical-1912",
+      "title": "The 1912 emblem",
+      "blurb": "The mark as it was printed in the Bend Bulletin on 3 July 1912, the earliest publication of it this project has found. A double ring, hand-composed letters, heavier strokes. Reconstructed from that page; the record of what was and was not changed is in the archive.",
+      "classification": "historical-reconstruction",
+      "classificationNote": ""
+    },
+    {
+      "id": "modern",
+      "title": "The common emblem",
+      "blurb": "The familiar later form, and the one most people in Bend will recognise. A different and lighter drawing than the 1912 mark. The artwork it was traced from has not been identified, so it is labelled a modern optimization rather than a historical reconstruction.",
+      "classification": "undetermined",
+      "classificationNote": "A cleaned digital reconstruction derived from the preserved Bend Emblem artwork. The artwork it was traced from has not yet been identified and filed, so the site does not call these files the historical reconstruction. The reconstruction record in the source repository says what is known."
+    }
+  ],
   "mastersVersion": "v1.1",
-  "sourceCommit": "bac17a4d8b283987fc768d461135fc96e5b6a4e1",
+  "sourceCommit": "d21655717f35c3b39bdf49fd73cf8377331ebe01",
   "variants": [
     {
+      "id": "1912-black",
+      "family": "historical-1912",
+      "title": "1912 Emblem, black",
+      "kind": "reconstruction",
+      "color": "black",
+      "transparentLetters": true,
+      "description": "The 1912 mark: letters and double ring in black, transparent everywhere else. The central copyright symbol on the newspaper page is not reproduced.",
+      "bestFor": [
+        "historical use",
+        "signage",
+        "print",
+        "apparel",
+        "stickers"
+      ],
+      "files": [
+        {
+          "format": "svg",
+          "path": "/emblem/1912-black/bend-emblem-1912-black.svg",
+          "bytes": 28725,
+          "sha256": "e95f9558d77f23163c7d62451a1a58a64d6f52d1b8220852e9f7653e7b0e1c11"
+        },
+        {
+          "format": "png",
+          "px": 256,
+          "path": "/emblem/1912-black/bend-emblem-1912-black-256.png",
+          "bytes": 12991,
+          "sha256": "3931a7de1e40f83fc8475d621ffe7675f8308f5d8d50e371c68d71ba2c0f8cb5"
+        },
+        {
+          "format": "png",
+          "px": 512,
+          "path": "/emblem/1912-black/bend-emblem-1912-black-512.png",
+          "bytes": 29358,
+          "sha256": "d9d4787c2dc5c82cb9b7d1744d50ac22ef269db0bf9adaa5496e0e9a6324f50d"
+        },
+        {
+          "format": "png",
+          "px": 1024,
+          "path": "/emblem/1912-black/bend-emblem-1912-black-1024.png",
+          "bytes": 66357,
+          "sha256": "e2ef2596be9ae5358e0d3de3cd9ec57a43d675f2cbd7e7ef613fffbf0b1560ad"
+        },
+        {
+          "format": "png",
+          "px": 2048,
+          "path": "/emblem/1912-black/bend-emblem-1912-black-2048.png",
+          "bytes": 148736,
+          "sha256": "972a40978c44b950523defbfc4c6af3c69f4d0aee0cf9232106d702bad8a56dc"
+        },
+        {
+          "format": "png",
+          "px": 4096,
+          "path": "/emblem/1912-black/bend-emblem-1912-black-4096.png",
+          "bytes": 340660,
+          "sha256": "c834a08fcf058221f388f6d11d5c4f0afd67110f61438a4df3a2e6f104611715"
+        },
+        {
+          "format": "webp",
+          "px": 1024,
+          "path": "/emblem/1912-black/bend-emblem-1912-black-1024.webp",
+          "bytes": 38968,
+          "sha256": "3c42053166d0c207c59b53b762db87f7e225ecfed891ef3e268bc04fa7afb132"
+        },
+        {
+          "format": "jpg",
+          "px": 2048,
+          "notes": "Flattened on white; JPG has no transparency.",
+          "path": "/emblem/1912-black/bend-emblem-1912-black-2048.jpg",
+          "bytes": 143400,
+          "sha256": "71a0715c9f3f4f4a6a03da107bec4af533e36f9c7d7905a7844a24029b39fead"
+        }
+      ],
+      "unavailable": [
+        "pdf",
+        "eps"
+      ],
+      "unavailableNote": "No PDF or EPS for this variant. This build has no vector converter, and the only supplied print vectors for the 1912 emblem trace the whole newspaper advertisement rather than the mark. Use the SVG; any print shop can take it."
+    },
+    {
+      "id": "1912-white",
+      "family": "historical-1912",
+      "title": "1912 Emblem, white",
+      "kind": "reconstruction",
+      "color": "white",
+      "transparentLetters": true,
+      "description": "The 1912 mark in white, for dark backgrounds. Transparent everywhere else.",
+      "bestFor": [
+        "dark backgrounds",
+        "photographs",
+        "dark apparel"
+      ],
+      "files": [
+        {
+          "format": "svg",
+          "path": "/emblem/1912-white/bend-emblem-1912-white.svg",
+          "bytes": 28737,
+          "sha256": "92d1d4ae9cb007c839639c8417971e07fbf574ced8e53320612a2e6c78d0b3c3"
+        },
+        {
+          "format": "png",
+          "px": 256,
+          "path": "/emblem/1912-white/bend-emblem-1912-white-256.png",
+          "bytes": 13513,
+          "sha256": "4b98600bc9b240125641d05b86491fa36b33dba219fc91bf93d97605948ffd30"
+        },
+        {
+          "format": "png",
+          "px": 512,
+          "path": "/emblem/1912-white/bend-emblem-1912-white-512.png",
+          "bytes": 30282,
+          "sha256": "a3f13eebe51091e9f1c249e5229a384c79a9db1fa2005e50bf41059558aa52a3"
+        },
+        {
+          "format": "png",
+          "px": 1024,
+          "path": "/emblem/1912-white/bend-emblem-1912-white-1024.png",
+          "bytes": 68240,
+          "sha256": "297976458cbfda79bb3d45cbf06607d9040b28d0a97e9ee24eb6816233640e26"
+        },
+        {
+          "format": "png",
+          "px": 2048,
+          "path": "/emblem/1912-white/bend-emblem-1912-white-2048.png",
+          "bytes": 155517,
+          "sha256": "fa7d399b902a4a2d49bc7ec559fd150e527c6f732620cefe1bbfdc2c69064f41"
+        },
+        {
+          "format": "png",
+          "px": 4096,
+          "path": "/emblem/1912-white/bend-emblem-1912-white-4096.png",
+          "bytes": 362923,
+          "sha256": "03f27021f3e9ea3ea5f0910520de3b6744c71a16c0bb63bfa2ed748c4d3c7cfb"
+        },
+        {
+          "format": "webp",
+          "px": 1024,
+          "path": "/emblem/1912-white/bend-emblem-1912-white-1024.webp",
+          "bytes": 38974,
+          "sha256": "8fb0e7db781d07820792fca9b8911d541df11ed6b1a3065d0d2d7a2d1a60a289"
+        }
+      ],
+      "unavailable": [
+        "pdf",
+        "eps"
+      ],
+      "unavailableNote": "No PDF or EPS for this variant. This build has no vector converter, and the only supplied print vectors for the 1912 emblem trace the whole newspaper advertisement rather than the mark. Use the SVG; any print shop can take it."
+    },
+    {
       "id": "original",
-      "title": "Original Emblem",
+      "family": "modern",
+      "title": "Common Emblem",
       "kind": "optimized",
       "color": "black",
-      "description": "Black circle with the letters BEND in white. Transparent outside the circle.",
+      "transparentLetters": false,
+      "description": "The familiar later form of the Bend Emblem: a black circle with the letters BEND in white, transparent outside the circle. Not the 1912 printing, which is a different and heavier drawing with a double ring.",
       "bestFor": [
         "signage",
         "web",
@@ -94,9 +260,11 @@
     },
     {
       "id": "cutout-black",
+      "family": "modern",
       "title": "Cutout Emblem",
       "kind": "optimized",
       "color": "black",
+      "transparentLetters": true,
       "description": "Black circle with the letters as true transparent knockouts. What shows through the letters is whatever is behind the emblem.",
       "bestFor": [
         "vinyl",
@@ -173,9 +341,11 @@
     },
     {
       "id": "cutout-white",
+      "family": "modern",
       "title": "Reverse Emblem",
       "kind": "optimized",
       "color": "white",
+      "transparentLetters": true,
       "description": "White circle with the letters as transparent knockouts, for dark backgrounds.",
       "bestFor": [
         "dark backgrounds",
@@ -249,9 +419,11 @@
     },
     {
       "id": "lettermark-black",
-      "title": "Lettermark",
+      "family": "modern",
+      "title": "Lettermark, black",
       "kind": "optimized",
       "color": "black",
+      "transparentLetters": true,
       "description": "The four letters BEND only, black, on a transparent ground.",
       "bestFor": [
         "small sizes",
@@ -334,9 +506,11 @@
     },
     {
       "id": "lettermark-white",
+      "family": "modern",
       "title": "Lettermark, white",
       "kind": "optimized",
       "color": "white",
+      "transparentLetters": true,
       "description": "The four letters BEND only, white, on a transparent ground, for dark backgrounds.",
       "bestFor": [
         "dark backgrounds",
@@ -499,8 +673,8 @@
   "bundle": {
     "format": "zip",
     "path": "/emblem/bend-emblem-package.zip",
-    "bytes": 2735557,
-    "sha256": "cb95bf95bf8568395bd55b14a159b3f83a125da3476611f4ce253c30f6489d45",
+    "bytes": 4134749,
+    "sha256": "2f794e7fbeba55b176d8d7debb862e928de871f4c544cdb38e4b13fe43cd5dcd",
     "notes": "No LICENSE.txt until the licensing review is recorded."
   }
 }

@@ -7,9 +7,55 @@ them. The package is computed from the masters by
 nothing in `package/` is hand-made, and `package/package/manifest.json`
 carries a byte count and a SHA-256 for every file.
 
+## v1.2 — 2026-09-10
+
+**A second family: the 1912 emblem.** Until now this repository held one
+drawing. It now holds two, and they are not two renderings of the same
+thing.
+
+```text
+masters/
+  historical/1912/   the 1912 emblem, black and white
+  modern/            the five v1.1 masters, unchanged
+```
+
+| | 1912 | Common (v1.1) |
+|---|---|---|
+| Source | The Bend Bulletin, 3 July 1912 — [read the page](https://oregonnews.uoregon.edu/lccn/sn96088235/1912-07-03/ed-1/seq-28/) | Not identified |
+| Classification | **Historical reconstruction** | **Undetermined** |
+| Border | Double ring | Single disc edge |
+| Ink inside the disc | 72% in the source, 70% reconstructed | 50% |
+
+The 1912 emblem is the earliest published form of the mark the project has
+found: a full newspaper page carrying it above the line *"The above brand is
+copyrighted. The Bend Park company, to whom it belongs…"*. Because its
+specimen is identified, it can be called a historical reconstruction — which
+the common family still cannot, since the artwork behind it has never been
+located. Measured against the newspaper page, the two are demonstrably
+different drawings, so neither replaces the other.
+
+**The central copyright symbol is not reproduced.** The 1912 specimen carries
+a small circled © between the E and the N. It is visible on the archive page
+and recorded in `masters/historical/1912/RECONSTRUCTION.md`, and deliberately
+left off files that people are invited to cut, print and paste: a copyright
+glyph on a mark being given away says the opposite of what this is for.
+
+**No PDF or EPS for the 1912 family.** The build has no vector converter and
+the supplied print vectors traced the whole advertisement rather than the
+mark. The manifest declares the absence and says why rather than dropping the
+format silently. The SVG is the master; any print shop can take it.
+
+**Nothing about the v1.1 masters changed.** Same files, same bytes, same
+`/emblem/original/…` paths. The later mark is now *titled* "Common Emblem"
+rather than "Original" on the website, since calling it the original beside a
+1912 drawing would be wrong, but its id and every published path are
+untouched.
+
+Package: 7 variants, 75 files.
+
 ## v1.1 — 2026-09-10
 
-First snapshot in this repository.
+First snapshot in this repository. Superseded by v1.2, which adds the 1912 family; these masters are unchanged by it.
 
 **Masters (`masters/`).** Five SVGs, `viewBox="0 0 1000 1000"`, single-fill
 paths, no strokes, no text elements, no embedded rasters:

@@ -7,9 +7,39 @@ them. The package is computed from the masters by
 nothing in `package/` is hand-made, and `package/package/manifest.json`
 carries a byte count and a SHA-256 for every file.
 
+## v1.3 — 2026-09-10
+
+**The 1912 masters are re-traced. Replace any v1.2 copy.**
+
+v1.2's 1912 masters were wrong. They were cut out of a supplied trace that
+had been spline-smoothed from a half-resolution render of the newspaper
+page, and the letterforms did not survive it: the channels between the
+letters came out fat, the corners melted, and the B's narrow pointed
+counters became ovals. Beside the specimen it is obvious.
+
+v1.3 traces the specimen directly, at the scan's native resolution
+(a 1300x1220 region of the 4376x6369 page, rather than a 2200 px render of
+the whole thing), with a tracer tuned to keep corners sharp — this is
+hand-cut lettering, not a spline.
+
+Measured as shape IoU against the page image, with both normalised to their
+own bounding boxes so it compares drawings and not framing:
+
+| | Shape IoU |
+|---|---|
+| v1.2 masters | 91.0% |
+| **v1.3 masters** | **99.0%** |
+
+The v1.2 files were checked with ink coverage — total black inside the disc —
+which they matched to within two points. Coverage says how much ink there is
+and nothing about where it is. That is why they passed.
+
+Unchanged: the common family, the central copyright symbol still deliberately
+absent, no PDF or EPS for the 1912 family, no LICENSE, no tag.
+
 ## v1.2 — 2026-09-10
 
-**A second family: the 1912 emblem.** Until now this repository held one
+**Superseded by v1.3, which re-traced these masters.** A second family: the 1912 emblem. Until now this repository held one
 drawing. It now holds two, and they are not two renderings of the same
 thing.
 

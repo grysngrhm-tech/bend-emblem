@@ -4,7 +4,7 @@
   "title": "The Bend Emblem",
   "description": "The vector masters of the historic Bend Emblem and the built open-source package derived from them, mirrored from BendEmblem.com. TWO FAMILIES, and they are different drawings: the 1912 emblem, reconstructed from the Bend Bulletin of 3 July 1912, and the familiar later 'common' emblem whose own source artwork has not been identified. The emblem was published in 1912 and the club that adopted it gave the town leave to use it in 1922; this repository exists so anyone can pick it up and use it.",
   "homepage": "https://bendemblem.com",
-  "version": "v1.2",
+  "version": "v1.3",
   "created": "2026-09-10",
   "keywords": [
     "bend",
@@ -47,8 +47,8 @@
       "mediatype": "image/svg+xml",
       "family": "historical-1912",
       "title": "1912 Black",
-      "bytes": 45333,
-      "hash": "sha256:d4e1c4590045d3cb2be9c3a6fb8c1f4aea8723c3a8c55330938f5522a9b5ef0e"
+      "bytes": 67513,
+      "hash": "sha256:27f2a2ce5113d7d6350a64cc3b3c952c7d39fe85d27d2cf18372131cfe1327ea"
     },
     {
       "name": "bend-emblem-1912-white",
@@ -57,8 +57,8 @@
       "mediatype": "image/svg+xml",
       "family": "historical-1912",
       "title": "1912 White",
-      "bytes": 45333,
-      "hash": "sha256:ad42fed877b8e29ad84d8da931b122495de0b04f5ab37b330b391a45604bd996"
+      "bytes": 67513,
+      "hash": "sha256:66e9dff7147da177dd50d82cb3fd1f0504303818c92c2bf267b6a43682d65197"
     },
     {
       "name": "bend-emblem-cutout-black",

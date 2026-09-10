@@ -19,7 +19,7 @@ not an error in either.
 |---|---|---|
 | Border | **Double ring**: an outer keyline and an inner ring | Single solid disc edge |
 | Letterforms | Irregular, hand-composed; pointed B counters, flared E, asymmetric N, compressed D | Regularised, even strokes |
-| Ink inside the disc | **72%** in the source, 70% in this reconstruction | 50% |
+| Ink inside the disc | **72%** in the source, 72% in this reconstruction | 50% |
 | Central symbol | A small circled © is visible in the newspaper — **not reproduced here**, see below | None |
 
 The ink figures were measured on 2026-09-10 by sampling the disc interior
@@ -40,21 +40,57 @@ for the first time here.
 
 ## Where it came from, and what was changed
 
-Derived from the package Grayson supplied on 2026-09-10, filed verbatim and
-unedited at `archive/emblem-packages/1912-historical/`, whose own SHA-256
-manifest was verified file by file (32 of 32 match).
+Traced by `scripts/trace-1912-master.mjs` directly from the specimen, at the
+scan's native resolution:
+`archive/newspapers/bend-bulletin/1912-07-03-emblem-native-crop.jpg` — the
+emblem alone, requested from Historic Oregon Newspapers' IIIF service as
+region 1790,1630,1300,1220 of the 4376×6369 page.
 
-That package's masters trace the **whole advertisement** — the top rule, the
-emblem, every line of the notice, and the bottom ornaments — as one path of
-93 subpaths and 580 KB. `scripts/extract-1912-master.mjs` selects the six
-subpaths that fall inside the emblem's own bounding box, bakes a
-translate-and-scale into their coordinates so the mark fills the standard
-`viewBox="0 0 1000 1000"`, and writes these two files. Nothing else was
-altered: no smoothing, no regularising, no reversing of curves. Re-run the
-script to reproduce them exactly.
+The pipeline, all of it recorded in the script's constants so the output is
+reproducible: crop to the mark, greyscale, normalise the newsprint ground,
+`mkbitmap -x -s 2 -t 0.50` (2× upsample before thresholding, so the tracer
+gets sub-pixel edges), then `potrace -a 0.7 -O 0.15 -t 120`. Alphamax below 1
+keeps corners sharp — this is hand-cut lettering, not a spline — and turdsize
+drops newsprint dust.
 
-Kept: 6 subpaths — the outer ring, the inner ring, the letter mass, the two
-B counters and the D counter. Dropped: 87 subpaths of newspaper furniture.
+Ten subpaths came out; nine are kept. What was dropped is printed by the
+script every run, and is only this:
+
+- the small central copyright symbol (39×60 units), by the decision below.
+
+Nothing was smoothed, regularised, straightened or made symmetrical. The
+double ring, the uneven strokes and the narrow channels are the specimen's.
+
+**Fidelity: 99.0% shape IoU** against the thresholded source — intersection
+over union of the ink, after normalising both to their own bounding boxes so
+the comparison is of shape and not of framing.
+`tests/emblem-package.test.ts` re-measures this on every run and fails below
+97%.
+
+## The first attempt, and why it was wrong
+
+Recorded because it is the more useful half of this record.
+
+The 2026-09-10 supplied package (filed at
+`archive/emblem-packages/1912-historical/`) traced the whole advertisement.
+The first attempt here cut the emblem's subpaths out of that trace, which
+inherited every fault in it: fat channels, melted corners, oval counters
+where the specimen has narrow pointed ones. Grayson called it a disaster and
+he was right — it scores **91.0%** on the measure above, and looks obviously
+wrong beside the source.
+
+It passed review because it was checked with the wrong number. The check was
+*ink coverage* — total black inside the disc — which the bad trace matched to
+within two points (70.4% against the source's 72.2%). Coverage says how much
+ink there is and nothing at all about where it is. Two very different
+drawings can share it. The measure now used, shape IoU, separates them
+cleanly: 91.0% against 99.0%.
+
+The other half of the fault was resolution. The supplied trace, and the
+extraction from it, came from a 2200 px render of the page — half the scan's
+native 4376 px. The emblem is only about 650 px across in that render, and
+the channels between the letters are two or three pixels wide. There is no
+recovering the letterforms from that. Trace from the native region.
 
 ## The central copyright symbol — decided: it stays off
 

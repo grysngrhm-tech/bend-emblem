@@ -19,7 +19,7 @@
     }
   ],
   "mastersVersion": "v1.1",
-  "sourceCommit": "d21655717f35c3b39bdf49fd73cf8377331ebe01",
+  "sourceCommit": "4d9e6caae957f0fc063a366ccd3f8d39de435064",
   "variants": [
     {
       "id": "1912-black",
@@ -40,58 +40,58 @@
         {
           "format": "svg",
           "path": "/emblem/1912-black/bend-emblem-1912-black.svg",
-          "bytes": 28725,
-          "sha256": "e95f9558d77f23163c7d62451a1a58a64d6f52d1b8220852e9f7653e7b0e1c11"
+          "bytes": 45280,
+          "sha256": "d3e0830e8c03f8d9107f9962140e5142f42aa2c9b70e2880a11eb441af156e24"
         },
         {
           "format": "png",
           "px": 256,
           "path": "/emblem/1912-black/bend-emblem-1912-black-256.png",
-          "bytes": 12991,
-          "sha256": "3931a7de1e40f83fc8475d621ffe7675f8308f5d8d50e371c68d71ba2c0f8cb5"
+          "bytes": 13855,
+          "sha256": "84aeea151b9b268883d2dda99e99e0ab4be9ffaa06288c6556d78ecd5cad0a54"
         },
         {
           "format": "png",
           "px": 512,
           "path": "/emblem/1912-black/bend-emblem-1912-black-512.png",
-          "bytes": 29358,
-          "sha256": "d9d4787c2dc5c82cb9b7d1744d50ac22ef269db0bf9adaa5496e0e9a6324f50d"
+          "bytes": 31175,
+          "sha256": "86f078307ffd92f40c1d6211d6b9d51c45b10460d723f2d20ac76c48f73956c4"
         },
         {
           "format": "png",
           "px": 1024,
           "path": "/emblem/1912-black/bend-emblem-1912-black-1024.png",
-          "bytes": 66357,
-          "sha256": "e2ef2596be9ae5358e0d3de3cd9ec57a43d675f2cbd7e7ef613fffbf0b1560ad"
+          "bytes": 70859,
+          "sha256": "7c69550ba7be6f6efcb8eeaa10860affbe75d78412a55cf31a004d2c0cd3a4b8"
         },
         {
           "format": "png",
           "px": 2048,
           "path": "/emblem/1912-black/bend-emblem-1912-black-2048.png",
-          "bytes": 148736,
-          "sha256": "972a40978c44b950523defbfc4c6af3c69f4d0aee0cf9232106d702bad8a56dc"
+          "bytes": 159532,
+          "sha256": "d1ef4fd5132b38448740f8d2e9d32a9ce130a80557713ba0467fe21d15aac1c4"
         },
         {
           "format": "png",
           "px": 4096,
           "path": "/emblem/1912-black/bend-emblem-1912-black-4096.png",
-          "bytes": 340660,
-          "sha256": "c834a08fcf058221f388f6d11d5c4f0afd67110f61438a4df3a2e6f104611715"
+          "bytes": 364319,
+          "sha256": "fdd62f07b7dfa225abd094b35412a79bb1850e1fb0ec50b1b1df68d105c0f9a7"
         },
         {
           "format": "webp",
           "px": 1024,
           "path": "/emblem/1912-black/bend-emblem-1912-black-1024.webp",
-          "bytes": 38968,
-          "sha256": "3c42053166d0c207c59b53b762db87f7e225ecfed891ef3e268bc04fa7afb132"
+          "bytes": 41914,
+          "sha256": "4f52f39b83e79d4ebfb8f5a804bf411a9c2b4b6a289b37dee77e7742485aa32c"
         },
         {
           "format": "jpg",
           "px": 2048,
           "notes": "Flattened on white; JPG has no transparency.",
           "path": "/emblem/1912-black/bend-emblem-1912-black-2048.jpg",
-          "bytes": 143400,
-          "sha256": "71a0715c9f3f4f4a6a03da107bec4af533e36f9c7d7905a7844a24029b39fead"
+          "bytes": 154260,
+          "sha256": "ec275def28149bb1df0a4bedafdd31d053cfc4a328237726a15abf5ddaf20f5b"
         }
       ],
       "unavailable": [
@@ -117,50 +117,50 @@
         {
           "format": "svg",
           "path": "/emblem/1912-white/bend-emblem-1912-white.svg",
-          "bytes": 28737,
-          "sha256": "92d1d4ae9cb007c839639c8417971e07fbf574ced8e53320612a2e6c78d0b3c3"
+          "bytes": 45292,
+          "sha256": "2297d57a324f301dd3ae2c641dafc301ff130c6a825e7cf8f523de8566d985c8"
         },
         {
           "format": "png",
           "px": 256,
           "path": "/emblem/1912-white/bend-emblem-1912-white-256.png",
-          "bytes": 13513,
-          "sha256": "4b98600bc9b240125641d05b86491fa36b33dba219fc91bf93d97605948ffd30"
+          "bytes": 14306,
+          "sha256": "b5e21f1b138aa941586359ce9cce748c7d816aa2094add007b08556b487fad1a"
         },
         {
           "format": "png",
           "px": 512,
           "path": "/emblem/1912-white/bend-emblem-1912-white-512.png",
-          "bytes": 30282,
-          "sha256": "a3f13eebe51091e9f1c249e5229a384c79a9db1fa2005e50bf41059558aa52a3"
+          "bytes": 32169,
+          "sha256": "61b4f7701fcf183bd316b37cc47330b6929d1fe4c517aaf39988a0c5c7af8718"
         },
         {
           "format": "png",
           "px": 1024,
           "path": "/emblem/1912-white/bend-emblem-1912-white-1024.png",
-          "bytes": 68240,
-          "sha256": "297976458cbfda79bb3d45cbf06607d9040b28d0a97e9ee24eb6816233640e26"
+          "bytes": 72854,
+          "sha256": "0d9be7ad52903add0363e8bfd6d373cd34a75986208915aa384c3d3229089ff6"
         },
         {
           "format": "png",
           "px": 2048,
           "path": "/emblem/1912-white/bend-emblem-1912-white-2048.png",
-          "bytes": 155517,
-          "sha256": "fa7d399b902a4a2d49bc7ec559fd150e527c6f732620cefe1bbfdc2c69064f41"
+          "bytes": 166416,
+          "sha256": "dee66c0b656ad8f1bbf439c101355f357d4532c890bcc61be99fe3db24c72053"
         },
         {
           "format": "png",
           "px": 4096,
           "path": "/emblem/1912-white/bend-emblem-1912-white-4096.png",
-          "bytes": 362923,
-          "sha256": "03f27021f3e9ea3ea5f0910520de3b6744c71a16c0bb63bfa2ed748c4d3c7cfb"
+          "bytes": 387952,
+          "sha256": "477e5bc82a317e2933592212c6df625188f2443e31c2bc8f831631041b1626c8"
         },
         {
           "format": "webp",
           "px": 1024,
           "path": "/emblem/1912-white/bend-emblem-1912-white-1024.webp",
-          "bytes": 38974,
-          "sha256": "8fb0e7db781d07820792fca9b8911d541df11ed6b1a3065d0d2d7a2d1a60a289"
+          "bytes": 41918,
+          "sha256": "d21b47a1c165c7de8e2027b35fef074b2f37429c466d5331e443fbee1928be4e"
         }
       ],
       "unavailable": [
@@ -673,8 +673,8 @@
   "bundle": {
     "format": "zip",
     "path": "/emblem/bend-emblem-package.zip",
-    "bytes": 4134749,
-    "sha256": "2f794e7fbeba55b176d8d7debb862e928de871f4c544cdb38e4b13fe43cd5dcd",
+    "bytes": 4249441,
+    "sha256": "2cc02da5e40b44cdb08cdd13f4b79f840251ce1009e8ff09b6bc7910d6077b88",
     "notes": "No LICENSE.txt until the licensing review is recorded."
   }
 }

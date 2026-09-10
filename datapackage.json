@@ -1,0 +1,97 @@
+{
+  "profile": "data-package",
+  "name": "bend-emblem",
+  "title": "The Bend Emblem",
+  "description": "The vector masters of the historic Bend Emblem and the built open-source package derived from them, mirrored from BendEmblem.com. The emblem was published in the Bend Bulletin on 3 July 1912 and the club that adopted it gave the town leave to use it in 1922; this repository exists so anyone can pick it up and use it.",
+  "homepage": "https://bendemblem.com",
+  "version": "v1.1",
+  "created": "2026-09-10",
+  "keywords": [
+    "bend",
+    "oregon",
+    "emblem",
+    "civic",
+    "logo",
+    "historic",
+    "public history",
+    "vector",
+    "svg",
+    "open source brand"
+  ],
+  "contributors": [
+    {
+      "title": "BendEmblem.com",
+      "path": "https://bendemblem.com",
+      "role": "publisher"
+    }
+  ],
+  "sources": [
+    {
+      "title": "The Bend Bulletin, 3 July 1912, printed page 8: the emblem published, over 'The above brand is copyrighted. The Bend Park company, to whom it belongs\u2026'",
+      "path": "https://oregonnews.uoregon.edu/lccn/sn96088235/1912-07-03/ed-1/seq-28/"
+    },
+    {
+      "title": "The Emblem Club \u2014 Being a Memory of the Address of the Taboo at the First Annual Dinner of the Club \u2014 January 4, 1913 (privately printed)",
+      "path": "https://bendemblem.com/book/"
+    },
+    {
+      "title": "The Bend Bulletin, 22 June 1922, page 7: the Emblem Club 'has given its permission for the club to use the emblem in any way it sees fit'",
+      "path": "https://oregonnews.uoregon.edu/lccn/sn96088235/1922-06-22/ed-1/seq-7/"
+    }
+  ],
+  "resources": [
+    {
+      "name": "bend-emblem-cutout-black",
+      "path": "masters/bend-emblem-cutout-black.svg",
+      "format": "svg",
+      "mediatype": "image/svg+xml",
+      "title": "Cutout Black",
+      "bytes": 10628,
+      "hash": "sha256:e893336f2cbaf48c9ef5a01d97f4408142eed7fdae3536557017c34ec3903375"
+    },
+    {
+      "name": "bend-emblem-cutout-white",
+      "path": "masters/bend-emblem-cutout-white.svg",
+      "format": "svg",
+      "mediatype": "image/svg+xml",
+      "title": "Cutout White",
+      "bytes": 10642,
+      "hash": "sha256:48b8d642e91489a1c5e95d74817f100b608c8628230d79de6e810f20dee99144"
+    },
+    {
+      "name": "bend-emblem-lettermark-black",
+      "path": "masters/bend-emblem-lettermark-black.svg",
+      "format": "svg",
+      "mediatype": "image/svg+xml",
+      "title": "Lettermark Black",
+      "bytes": 8525,
+      "hash": "sha256:30d5fa2ded4400f8ed62efcf05ddf390ff2f8338e13ec098292b3280090bc4a3"
+    },
+    {
+      "name": "bend-emblem-lettermark-white",
+      "path": "masters/bend-emblem-lettermark-white.svg",
+      "format": "svg",
+      "mediatype": "image/svg+xml",
+      "title": "Lettermark White",
+      "bytes": 8550,
+      "hash": "sha256:fdc104c176560ce7c4dd98bd6a10d6316d874bf38027156a9d7659c63b6d3440"
+    },
+    {
+      "name": "bend-emblem-original",
+      "path": "masters/bend-emblem-original.svg",
+      "format": "svg",
+      "mediatype": "image/svg+xml",
+      "title": "Original",
+      "bytes": 11573,
+      "hash": "sha256:5c7ffaa6f8a1b8ce6c5595a7be2f4f238ee28aa1a9a61b6532a55f65a42ee367"
+    },
+    {
+      "name": "emblem-package-manifest",
+      "path": "package/package/manifest.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "title": "Computed manifest of the built package",
+      "description": "Every derivative file with its byte count and SHA-256, computed from the masters by scripts/build-emblem-package.mjs in the BendEmblem.com repository. Never hand-typed."
+    }
+  ]
+}

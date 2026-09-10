@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use the Bend Emblem, no permission or attribution is required. If you want to cite where these files came from, cite it as below."
+title: The Bend Emblem — vector masters and open-source package
+version: "v1.1"
+date-released: "2026-09-10"
+type: dataset
+url: https://bendemblem.com/download/
+repository-code: https://github.com/grysngrhm-tech/bend-emblem
+# No `license:` field, and no `identifiers:` block. Both wait on the
+# provenance review recorded in the BendEmblem.com repository
+# (docs/research/licensing.md). Naming a licence here before that review has
+# an outcome would create exactly the ambiguity the review exists to avoid,
+# around a mark whose own publisher gave it to the town in 1922. No Zenodo
+# DOI is minted for the same reason.
+abstract: >-
+  The historic Bend Emblem: a solid disc with BEND knocked out, published in
+  the Bend Bulletin on 3 July 1912 by the Bend Park Company and worn by
+  members of the Bend Emblem Club, who swore in 1913 to keep wearing it
+  "until Bend has a population of one hundred thousand". This repository
+  holds five vector masters and the complete package built from them — SVG,
+  PNG at five sizes, PDF, EPS, DXF, favicons and web assets — so that anyone
+  can put the emblem on a window, a shirt, a sticker, a sign or a machine.
+  The files are a modern reconstruction, not a scan of the original artwork;
+  masters/RECONSTRUCTION.md records exactly what is known about their
+  derivation and what is not.
+keywords:
+  - Bend
+  - Oregon
+  - civic emblem
+  - local history
+  - public history
+  - open source brand
+  - vector
+  - SVG
+authors:
+  - name: BendEmblem.com
+    website: https://bendemblem.com
+  - family-names: Graham
+    given-names: Grayson
+    website: https://bendemblem.com
